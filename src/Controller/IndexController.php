@@ -26,6 +26,6 @@ class IndexController extends AbstractController
      */
     public function api_route()
     {
-        return $this->json(['sarah' => 'sasageyo']);
+        return $this->json(['sarah' => str_starts_with('sasageyo', 'sas')]);
     }
 }
