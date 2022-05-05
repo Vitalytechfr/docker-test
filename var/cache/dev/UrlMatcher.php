@@ -9,6 +9,7 @@ return [
     false, // $matchHost
     [ // $staticRoutes
         '/' => [[['_route' => 'index_show', '_controller' => 'App\\Controller\\IndexController::show'], null, null, null, false, false, null]],
+        '/api-test' => [[['_route' => 'api_test', '_controller' => 'App\\Controller\\IndexController::api_route'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

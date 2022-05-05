@@ -1,0 +1,22 @@
+<?php //App%255CController%255CIndexController%2523api_route
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/api-test',
+            ],
+            'name' => [
+                'api_test',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

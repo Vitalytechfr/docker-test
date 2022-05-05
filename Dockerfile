@@ -90,7 +90,7 @@ ENV SYMFONY_VERSION ${SYMFONY_VERSION}
 
 # Download the Symfony skeleton and leverage Docker cache layers
 #RUN composer create-project "${SKELETON} ${SYMFONY_VERSION}" . --stability=$STABILITY --prefer-dist --no-dev --no-progress --no-interaction; \
-	composer clear-cache
+	#composer clear-cache
 
 ###> recipes ###
 ###> doctrine/doctrine-bundle ###
